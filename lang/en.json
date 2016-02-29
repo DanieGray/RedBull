@@ -1,0 +1,14 @@
+{
+	"meta": {
+		"charset": "utf-8",
+		"project": "redbull.tv 1.0.6",
+		"language": "en",
+		"plural": "(n != 1)"
+	},
+	"data": {
+		"": {
+			"This is Red Bull TV. Red Bull TV features inspirational programming from the world of Red Bull, including live global events and an extensive selection of sports, music and lifestyle entertainment. With availability on your favorite device, Red Bull TV is there for you, whenever you want it.": "",
+			"redbull.tv": ""
+		}
+	}
+}
