@@ -1,7 +1,7 @@
 {
-	"name": "redbull.tv",
-	"version": "1.0.7",
-	"description": "This is Red Bull TV. Red Bull TV features inspirational programming from the world of Red Bull, including live global events and an extensive selection of sports, music and lifestyle entertainment. With availability on your favorite device, Red Bull TV is there for you, whenever you want it.",
+	"name": "RedBull",
+	"version": "1.0.10",
+	"description": "This is Red Bull TV. Red Bull TV features inspirational programming from the world of Red Bull, includi",
 	"author": {
 		"name": "DanieGray"
 	},
@@ -10,6 +10,7 @@
 		"url": "https://github.com/DanieGray/RedBull.git"
 	},
 	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
 		"code-proxy": "^1.2.21",
 		"del": "^1.2.0",
 		"gettext-parser": "^1.1.1",
@@ -37,7 +38,23 @@
 		"ws": "^0.7.2"
 	},
 	"config": {
+		"type": "app",
+		"category": "apps",
 		"backgroundColor": "#202020",
-		"icons": "icons"
+		"name": "RedBull",
+		"legacy": true,
+		"description": "The app opens for you an unrivaled world of action, live events, inspirational people and breathtaking stories from Red Bull’s global playground. ",
+		"icons": {
+			"paths": {
+				"480": "img/480/",
+				"576": "img/576/",
+				"720": "img/720/",
+				"1080": "img/1080/"
+			},
+			"states": {
+				"normal": "icons/2015.png",
+				"active": "icons/2015.focus.png"
+			}
+		}
 	}
 }
